@@ -1,0 +1,24 @@
+body{background-color: gray; font-family: Arial, Helvetica, sans-serif/*Main site background*/;}
+h1{color: wheat;text-align: center; margin-bottom: 5px;}
+.para{color: wheat;text-align: center;font-size: small; margin-top: 0%;}
+.navbar{list-style: none;display: flex;justify-content: center;background-color: #ccc;padding: 10px 0;}
+.navbar li{margin: 0 15px;}
+.navbar a{color: white;text-decoration: none;font-weight: bold;}
+.navbar a:hover{color:navy;}
+h2{color: black;text-align: center;}
+p{font-size: 20px;color: black;text-align: left;line-height:1.6;}
+.IMG1 {width:300px;height: auto;display:flex;border radius: 10px;margin: auto;}
+.button{background-color: white;color: navy;border: 5px;padding: 10px;font-size: 15px;border-radius: 10px;cusor:auto}
+.button:hover{background-color: gray;}
+.IMG:hover{transform: scale(1.09);transition:transform 0.3s ease;}
+.sitefooter{text-align: center;padding: 5px;background: burlywood; color: white; width:100%;margin-top: 5px;margin-bottom: 0%;margin-left: 0%;}
+.IMG{display: flex; justify-content: center;align-items: center; height: 60px;/*optional:to centre vertically on full page*/}
+.IMG {max-width: 100%; height: auto;}
+.sitefooter{background-color: burlywood;/*Footer color*/color: wheat;/*Footer text color*/ text-align: center;padding: 5px;width: 100%;margin-bottom: 0%;margin-left: 0%;margin-top: 5%;} 
+.list{list-style-type:decimal;margin:20px; padding-left: 10px;font-size: 16px;color: #222;}
+.list li{margin-bottom: 10px;}
+table{width: 45px;border-collapse: collapse;margin: 20px;font-size: 14px;font-family: Arial, Helvetica, sans-serif;}
+td{padding: 15px;border: 1px solid #ddd;text-align: center;}
+tr:nth-child{background-color: white;}
+.main-site{display: flex;flex-direction: row}
+@media only screen and(max-width:768px){/*This CSS will apply when the screen width is 768px or less*/} .main-site{flex-direction:column;padding:10px;}
